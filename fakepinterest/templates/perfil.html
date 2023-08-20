@@ -1,0 +1,14 @@
+{% extends "homepage.html" %}
+
+{% block titulo %}
+perfil - {{usuario}}
+{% endblock %}
+
+{% block body %}
+<body>
+
+<h1> Perfil do usuario: {{usuario}} </h1>>
+<a href="{{ url_for('homepage') }}">VOLTAR PARA A HOMEPAGE</a>
+
+</body>
+{% endblock %}

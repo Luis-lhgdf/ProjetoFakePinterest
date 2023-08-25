@@ -17,6 +17,6 @@ class FormCriarConta(FlaskForm):
     botao_confirmacao = SubmitField("Criar Conta")
 
     def validate_email(self, email):
-        usuario = Usuario.query.filter_by(email=email.data).firts()
+        usuario = Usuario.query.filter_by(email=email.data).first()
         if usuario:
             return ValidationError("E-mail já cadastrado, faça login para continuar")

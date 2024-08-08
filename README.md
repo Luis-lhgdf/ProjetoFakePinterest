@@ -1,5 +1,8 @@
 # FakePinterest
 
+
+<img src="image.png"/>
+
 O projeto **FakePinterest** é uma recriação da página do Pinterest, permitindo aos usuários adicionar e compartilhar imagens. Desenvolvido em Python com Flask, utiliza SQLAlchemy para conectar-se a um banco de dados SQLite e Flask-Bcrypt para criptografar senhas.
 
 As principais rotas incluem:
